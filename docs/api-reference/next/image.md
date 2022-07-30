@@ -67,6 +67,8 @@ When using `layout="responsive"`, `layout="fill"`, the `height` property represe
 
 The `height` property is required, except for [statically imported images](/docs/basic-features/image-optimization.md#local-images), or those with `layout="fill"`.
 
+Note that for the image component to respect its parent's width and height when `layout="fill"`, the parent's position in CSS must be set to 'relative'.
+
 ## Optional Props
 
 The `<Image />` component accepts a number of additional properties beyond those which are required. This section describes the most commonly-used properties of the Image component. Find details about more rarely-used properties in the [Advanced Props](#advanced-props) section.
