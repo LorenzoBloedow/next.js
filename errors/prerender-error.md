@@ -6,6 +6,7 @@ While prerendering a page an error occurred. This can occur for many reasons fro
 
 #### Possible Ways to Fix It
 
+- Make sure your page is not throwing a "Server Error" when you access it using `next` or `next dev`
 - Make sure to move any non-pages out of the `pages` folder
 - Check for any code that assumes a prop is available, even when it might not be
 - Set default values for all dynamic pages' props (avoid `undefined`, use `null` instead so it can be serialized)
